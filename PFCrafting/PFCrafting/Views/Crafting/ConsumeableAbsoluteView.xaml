@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PFCrafting.Views.ConsumeableAbsoluteView"
+               Title="{Binding Title}">
+  <AbsoluteLayout
+    VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+    >
+ 
+
+
+    <StackLayout  Orientation="Horizontal"
+                   AbsoluteLayout.LayoutBounds="0,0.1,1,.2"
+                AbsoluteLayout.LayoutFlags="All"
+                  >
+      <StackLayout  >
+        <Label Text="{Binding CasterLevelTitle}"></Label>
+        <Entry Text="{Binding CasterLevel}"></Entry>
+      </StackLayout>
+      <StackLayout    >
+        <Label Text="{Binding SpellLevelTitle}"></Label>
+        <Entry Text="{Binding SpellLevel}"></Entry>
+      </StackLayout>
+    </StackLayout>
+    <StackLayout  Orientation="Horizontal"
+                      
+                AbsoluteLayout.LayoutFlags="All">
+      <StackLayout  >
+        <Label Text="{Binding BaseCostTitle}"></Label>
+        <Label Text="{Binding BaseCost}"></Label>
+      </StackLayout>
+      <StackLayout    >
+        <Label Text="{Binding CraftCostTitle}"></Label>
+        <Label Text="{Binding CraftingCost}"></Label>
+      </StackLayout>
+      <StackLayout    >
+        <Label Text="{Binding CraftTimeTitle}"></Label>
+        <Label Text="{Binding CraftingTime}"></Label>
+      </StackLayout>
+    </StackLayout>
+  </AbsoluteLayout>
+</ContentPage>

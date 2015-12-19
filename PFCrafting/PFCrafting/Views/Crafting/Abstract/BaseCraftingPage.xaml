@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:PFAssistant.Core.Controls;assembly=PFAssistant.Core"
+             x:Class="PFAssistant.Core.View.Crafting.BaseCraftingPage"
+             Title="{Binding Title}">
+
+    <Grid HorizontalOptions ="FillAndExpand"  Padding="10"  >
+    <Grid.RowDefinitions>
+      <RowDefinition Height="4*" />
+      <RowDefinition Height="1*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+      <ColumnDefinition Width="1*" />
+    </Grid.ColumnDefinitions>
+    <StackLayout Orientation="Vertical" Grid.Column="0"  Grid.Row="0" Grid.ColumnSpan="2">
+      <Label Text="{Binding ItemNameTitle}"   />
+      <controls:BindablePicker  ItemsSource="{Binding ItemNames}" SelectedItem="{Binding SelectedItem, Mode=TwoWay}" />
+    </StackLayout>
+    <StackLayout Orientation="Vertical" Grid.Column="2" Grid.Row="0">
+      <Label Text="Quality"  />
+      <controls:BindablePicker  ItemsSource="{Binding BonusOptions}" SelectedItem="{Binding TotalBonusText, Mode=TwoWay}"  />
+    </StackLayout>
+
+    <StackLayout Grid.Column="0" Grid.Row="1">
+      <Label Text="{Binding BaseCostTitle}" />
+      <Label Text="{Binding BaseCost}" />
+    </StackLayout>
+    <StackLayout Grid.Column="1" Grid.Row="1">
+      <Label Text="{Binding CraftCostTitle}" />
+      <Label Text="{Binding CraftingCost}" />
+    </StackLayout>
+    <StackLayout Grid.Column="2" Grid.Row="1">
+      <Label Text="{Binding CraftTimeTitle}" />
+      <Label Text="{Binding CraftingTime}" />
+    </StackLayout>
+  </Grid>
+
+
+</ContentPage>
