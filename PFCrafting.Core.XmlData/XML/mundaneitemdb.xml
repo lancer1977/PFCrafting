@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" standalone="yes"?>
+
+<root>
+  <xs:schema id="root" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="root" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Mundane">
+            <xs:complexType>
+              <xs:attribute name="Name" type="xs:string" />
+              <xs:attribute name="Cost" type="xs:integer" />
+              <xs:attribute name="Weight" type="xs:integer" />
+              <xs:attribute name="Source" type="xs:string" />
+              <xs:attribute name="Subtype" type="xs:string" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Mundane Name="Fishhook" Cost="10" Weight="0" Source="UE" Subtype="Hunting" />
+  <Mundane Name="Net, bell" Cost="200" Weight="32" Source="UE" Subtype="Hunting" />
+  <Mundane Name="Net, butterfly" Cost="500" Weight="32" Source="UE" Subtype="Hunting" />
+  <Mundane Name="Netting, camouflage" Cost="2000" Weight="80" Source="UE" Subtype="Hunting" />
+  <Mundane Name="Net, fishing" Cost="400" Weight="80" Source="UE" Subtype="Hunting" />
+  <Mundane Name="Scent cloak" Cost="2000" Weight="32" Source="AA" Subtype="Hunting" />
+  <Mundane Name="Trap, bear" Cost="200" Weight="160" Source="AA" Subtype="Hunting" />
+  <Mundane Name="Bathtub, collapsible" Cost="1500" Weight="320" Source="UE" Subtype="Comfort" />
+  <Mundane Name="Bedroll" Cost="10" Weight="80" Source="UE" Subtype="Comfort" />
+  <Mundane Name="Blanket" Cost="50" Weight="48" Source="UE" Subtype="Comfort" />
+  <Mundane Name="Chair, folding" Cost="200" Weight="160" Source="UE" Subtype="Comfort" />
+  <Mundane Name="Cot" Cost="100" Weight="480" Source="UE" Subtype="Comfort" />
+  <Mundane Name="Hammock" Cost="10" Weight="48" Source="UE" Subtype="Comfort" />
+  <Mundane Name="Soap" Cost="1" Weight="8" Source="UE" Subtype="Comfort" />
+  <Mundane Name="Tent, small" Cost="1000" Weight="320" Source="UE" Subtype="Shelter" />
+  <Mundane Name="Tent, medium" Cost="1500" Weight="480" Source="UE" Subtype="Shelter" />
+  <Mundane Name="Tent, large" Cost="3000" Weight="640" Source="UE" Subtype="Shelter" />
+  <Mundane Name="Tent, pavilion" Cost="10000" Weight="800" Source="UE" Subtype="Shelter" />
+  <Mundane Name="Tent, hanging" Cost="2000" Weight="240" Source="ARG" Subtype="Shelter" />
+  <Mundane Name="Air bladder" Cost="10" Weight="8" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Animal glue" Cost="50" Weight="8" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Bell" Cost="100" Weight="0" Source="CRB" Subtype="Outdoors Gear" />
+  <Mundane Name="Buoy, common" Cost="50" Weight="256" Source="CRB" Subtype="Outdoors Gear" />
+  <Mundane Name="Buoy, superior" Cost="1000" Weight="480" Source="CRB" Subtype="Outdoors Gear" />
+  <Mundane Name="Compass" Cost="1000" Weight="8" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Heatstone" Cost="2000" Weight="0" Source="ISWG" Subtype="Outdoors Gear" />
+  <Mundane Name="Map" Cost="5000" Weight="32" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Mirror, small steel" Cost="1000" Weight="8" Source="CRB" Subtype="Outdoors Gear" />
+  <Mundane Name="Rope, hemp (50 ft.)" Cost="100" Weight="160" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Rope, silk (50 ft.)" Cost="1000" Weight="80" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Rope, spider's silk (50 ft.)" Cost="10000" Weight="64" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Star Charts" Cost="20000" Weight="8" Source="ARG" Subtype="Outdoors Gear" />
+  <Mundane Name="String or twine (50 ft.)" Cost="1" Weight="8" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Horn, powder" Cost="300" Weight="0" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Horn, signal" Cost="100" Weight="32" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Whistle, signal" Cost="80" Weight="0" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Whistle, silent" Cost="90" Weight="0" Source="UE" Subtype="Outdoors Gear" />
+  <Mundane Name="Candle" Cost="1" Weight="0" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Candle, helmet" Cost="200" Weight="64" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Candle, insectbane" Cost="0" Weight="0" Source="??" Subtype="Illumination" />
+  <Mundane Name="Candle lamp" Cost="500" Weight="0" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Candlestick" Cost="1" Weight="8" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Darkflare" Cost="100" Weight="0" Source="Faction Guide" Subtype="Illumination" />
+  <Mundane Name="Firewood (per day)" Cost="1" Weight="320" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Lamp" Cost="10" Weight="0" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Lamp, celestial" Cost="30000" Weight="32" Source="ARG" Subtype="Illumination" />
+  <Mundane Name="Lantern, bullseye" Cost="1200" Weight="48" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Lantern, darklight" Cost="2000" Weight="48" Source="ARG" Subtype="Illumination" />
+  <Mundane Name="Lantern, hooded" Cost="700" Weight="32" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Lantern, miner's" Cost="1500" Weight="32" Source="PSFG" Subtype="Illumination" />
+  <Mundane Name="Lantern, waterproof" Cost="500" Weight="0" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Moonrod" Cost="1000" Weight="0" Source="ARG" Subtype="Illumination" />
+  <Mundane Name="Sunrod" Cost="200" Weight="0" Source="CRB" Subtype="Illumination" />
+  <Mundane Name="Thurible" Cost="5000" Weight="48" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Torch" Cost="1" Weight="0" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Torch, everburning" Cost="11000" Weight="0" Source="UE" Subtype="Illumination" />
+  <Mundane Name="Absinthe" Cost="0" Weight="16" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Ale" Cost="20" Weight="128" Source="CRB" Subtype="Beverage" />
+  <Mundane Name="Ale" Cost="4" Weight="0" Source="CRB" Subtype="Beverage" />
+  <Mundane Name="Ale, Dwarven Stout" Cost="4" Weight="8" Source="AA" Subtype="Beverage" />
+  <Mundane Name="Ale, Luglurch" Cost="100" Weight="0" Source="HoG" Subtype="Beverage" />
+  <Mundane Name="Ale, Luglurch" Cost="40" Weight="0" Source="HoG" Subtype="Beverage" />
+  <Mundane Name="Applejack" Cost="40" Weight="128" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Applejack" Cost="8" Weight="0" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Baijiu" Cost="1000" Weight="32" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Bufo" Cost="100" Weight="32" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Cauim" Cost="100" Weight="32" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Godsbrew" Cost="5" Weight="8" Source="AA" Subtype="Beverage" />
+  <Mundane Name="Grog" Cost="2" Weight="8" Source="AA/PoIS" Subtype="Beverage" />
+  <Mundane Name="Kumis" Cost="50" Weight="16" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Mead" Cost="5" Weight="8" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Mead" Cost="200" Weight="128" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Mead, linnorm" Cost="5" Weight="8" Source="AA" Subtype="Beverage" />
+  <Mundane Name="Pulque" Cost="10" Weight="8" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Rumboozle" Cost="10" Weight="8" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Tepache" Cost="5" Weight="8" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Whiskey, Dragon Punch" Cost="1000" Weight="0" Source="HoG" Subtype="Beverage" />
+  <Mundane Name="Whiskey, Oldlaw" Cost="0" Weight="0" Source="AA" Subtype="Beverage" />
+  <Mundane Name="Wine common" Cost="20" Weight="96" Source="CRB" Subtype="Beverage" />
+  <Mundane Name="Wine fine" Cost="1000" Weight="0" Source="CRB" Subtype="Beverage" />
+  <Mundane Name="Wine, sealord" Cost="1500" Weight="8" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Coffee, common" Cost="1" Weight="8" Source="AA" Subtype="Beverage" />
+  <Mundane Name="Coffee, exotic" Cost="3" Weight="8" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Kahve" Cost="2" Weight="8" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Milk" Cost="5" Weight="8" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Milk, powdered" Cost="10" Weight="0" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Tea" Cost="2" Weight="8" Source="UE" Subtype="Beverage" />
+  <Mundane Name="Tea, ceremonial" Cost="4" Weight="8" Source="AA" Subtype="Beverage" />
+  <Mundane Name="Tonic, medicinal" Cost="1000" Weight="0" Source="HoG" Subtype="Beverage" />
+  <Mundane Name="Bread" Cost="2" Weight="8" Source="CRB" Subtype="Food" />
+  <Mundane Name="Caviar" Cost="5000" Weight="0" Source="UE" Subtype="Food" />
+  <Mundane Name="Cheese" Cost="10" Weight="8" Source="UE" Subtype="Food" />
+  <Mundane Name="Chocolate" Cost="500" Weight="8" Source="UE" Subtype="Food" />
+  <Mundane Name="Fortune cookie" Cost="1" Weight="0" Source="UE" Subtype="Food" />
+  <Mundane Name="Haggis" Cost="10" Weight="16" Source="UE" Subtype="Food" />
+  <Mundane Name="Honey" Cost="100" Weight="8" Source="UE" Subtype="Food" />
+  <Mundane Name="Ice cream" Cost="10" Weight="0" Source="UE" Subtype="Food" />
+  <Mundane Name="Maple syrup" Cost="100" Weight="8" Source="UE" Subtype="Food" />
+  <Mundane Name="Meal, banquet" Cost="1000" Weight="0" Source="CRB" Subtype="Food" />
+  <Mundane Name="Meal, good" Cost="50" Weight="0" Source="CRB" Subtype="Food" />
+  <Mundane Name="Meal, common" Cost="30" Weight="0" Source="CRB" Subtype="Food" />
+  <Mundane Name="Meal, poor" Cost="10" Weight="0" Source="CRB" Subtype="Food" />
+  <Mundane Name="Meat" Cost="30" Weight="8" Source="CRB" Subtype="Food" />
+  <Mundane Name="Meat, street" Cost="1" Weight="8" Source="UE" Subtype="Food" />
+  <Mundane Name="Rations, trail" Cost="50" Weight="0" Source="UE" Subtype="Food" />
+  <Mundane Name="Rations, Dwarven trail" Cost="200" Weight="0" Source="UE" Subtype="Food" />
+  <Mundane Name="Rations, Elven trail" Cost="200" Weight="0" Source="UE" Subtype="Food" />
+  <Mundane Name="Rations, Gnome trail" Cost="200" Weight="0" Source="UE" Subtype="Food" />
+  <Mundane Name="Rations, Halfling trail" Cost="200" Weight="8" Source="UE" Subtype="Food" />
+  <Mundane Name="Rations, Orc trail" Cost="100" Weight="0" Source="UE" Subtype="Food" />
+  <Mundane Name="Rations, Wandermeal (per serving)" Cost="1" Weight="8" Source="AA" Subtype="Food" />
+  <Mundane Name="Travel cake mix" Cost="10" Weight="0" Source="UE" Subtype="Food" />
+  <Mundane Name="Yogurt" Cost="10" Weight="8" Source="UE" Subtype="Food" />
+  <Mundane Name="Outfit, Artisan's" Cost="100" Weight="64" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Outfit, Cold-Weather" Cost="800" Weight="112" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Outfit, Courtier's" Cost="3000" Weight="96" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Outfit, Dilettante's" Cost="2000" Weight="128" Source="ARG" Subtype="Outfit" />
+  <Mundane Name="Outfit, Doctor's" Cost="15000" Weight="96" Source="AA" Subtype="Outfit" />
+  <Mundane Name="Outfit, Entertainer's" Cost="300" Weight="64" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Outfit, Explorer's" Cost="1000" Weight="128" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Outfit, Hot Weather" Cost="800" Weight="64" Source="APG" Subtype="Outfit" />
+  <Mundane Name="Outfit, Monk's" Cost="500" Weight="32" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Outfit, Noble's" Cost="7500" Weight="160" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Outfit, Peasant's" Cost="10" Weight="32" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Outfit, Pickpocket's" Cost="500" Weight="48" Source="AA" Subtype="Outfit" />
+  <Mundane Name="Outfit, Royal" Cost="20000" Weight="240" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Outfit, Scholar's" Cost="500" Weight="96" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Soldier's uniform" Cost="100" Weight="80" Source="UE" Subtype="Outfit" />
+  <Mundane Name="Suit, diving" Cost="1000" Weight="32" Source="UE" Subtype="Outfit" />
+  <Mundane Name="Swarmsuit" Cost="2000" Weight="160" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Tear-Away Clothing" Cost="500" Weight="16" Source="AA" Subtype="Outfit" />
+  <Mundane Name="Outfit, Traveler's" Cost="100" Weight="80" Source="CRB" Subtype="Outfit" />
+  <Mundane Name="Cleats" Cost="500" Weight="32" Source="APG" Subtype="Footwear" />
+  <Mundane Name="Boots, fire-resistant" Cost="2000" Weight="32" Source="UE" Subtype="Footwear" />
+  <Mundane Name="Boots, softpaw" Cost="2500" Weight="0" Source="ARG" Subtype="Footwear" />
+  <Mundane Name="Skates, ice" Cost="100" Weight="32" Source="UE" Subtype="Footwear" />
+  <Mundane Name="Skis" Cost="500" Weight="320" Source="UE" Subtype="Footwear" />
+  <Mundane Name="Snowshoes" Cost="500" Weight="64" Source="APG" Subtype="Footwear" />
+  <Mundane Name="Cape, Billow" Cost="10000" Weight="64" Source="ARG" Subtype="Bodywear" />
+  <Mundane Name="Eyeglasses" Cost="500" Weight="0" Source="AA" Subtype="Face" />
+  <Mundane Name="Eye patch" Cost="10" Weight="0" Source="PoIS" Subtype="Face" />
+  <Mundane Name="Goggles, Gloom Sight" Cost="20000" Weight="0" Source="ARG" Subtype="Face" />
+  <Mundane Name="Goggles, Smoked" Cost="1000" Weight="0" Source="APG" Subtype="Face" />
+  <Mundane Name="Hat" Cost="1500" Weight="8" Source="AA" Subtype="Head" />
+  <Mundane Name="Mask" Cost="1500" Weight="0" Source="AA" Subtype="Face" />
+  <Mundane Name="Mask, Battle" Cost="5000" Weight="32" Source="ARG" Subtype="Face" />
+  <Mundane Name="Mask, Doctor's" Cost="5000" Weight="32" Source="AA" Subtype="Face" />
+  <Mundane Name="Mask, Monster" Cost="51000" Weight="0" Source="UE" Subtype="Face" />
+  <Mundane Name="Neck Guard" Cost="1000" Weight="4" Source="ARG" Subtype="Neck" />
+  <Mundane Name="Scarf" Cost="150" Weight="8" Source="AA" Subtype="Neck" />
+  <Mundane Name="Scarf, pocketed" Cost="800" Weight="8" Source="AA" Subtype="Neck" />
+  <Mundane Name="Scarf, reinforced" Cost="1000" Weight="0" Source="AA" Subtype="Neck" />
+  <Mundane Name="Wig" Cost="550000" Weight="8" Source="AA" Subtype="Head" />
+  <Mundane Name="Cloak, Patchwork" Cost="500" Weight="8" Source="UE" Subtype="Bodywear" />
+  <Mundane Name="Cloak, Reversible" Cost="21000" Weight="0" Source="UE" Subtype="Bodywear" />
+  <Mundane Name="Cloak, Wing" Cost="120000" Weight="0" Source="ARG" Subtype="Bodywear" />
+  <Mundane Name="Furs" Cost="1200" Weight="80" Source="APG" Subtype="Bodywear" />
+  <Mundane Name="Kilt" Cost="20" Weight="0" Source="UE" Subtype="Bodywear" />
+  <Mundane Name="Poncho" Cost="50" Weight="32" Source="UE" Subtype="Bodywear" />
+  <Mundane Name="Sash, Adventurer's" Cost="2000" Weight="48" Source="SOS" Subtype="Bodywear" />
+  <Mundane Name="Tabard" Cost="500" Weight="0" Source="UE" Subtype="Bodywear" />
+  <Mundane Name="Vest" Cost="1500" Weight="8" Source="AA" Subtype="Bodywear" />
+  <Mundane Name="Vest, barbed" Cost="1000" Weight="64" Source="CRB" Subtype="Bodywear" />
+  <Mundane Name="Vestments, Cleric's" Cost="500" Weight="96" Source="CRB" Subtype="Bodywear" />
+  <Mundane Name="Brooch" Cost="0" Weight="0" Source="UE" Subtype="Jewelry" />
+  <Mundane Name="Caul" Cost="1010000" Weight="0" Source="UE" Subtype="Jewelry" />
+  <Mundane Name="Decorative trim" Cost="1500" Weight="0" Source="UE" Subtype="Jewelry" />
+  <Mundane Name="Jewelry" Cost="0" Weight="0" Source="AA" Subtype="Jewelry" />
+  <Mundane Name="Jewelry, false" Cost="2000" Weight="0" Source="RotRLPG" Subtype="Jewelry" />
+  <Mundane Name="Hennin" Cost="1010000" Weight="0" Source="UE" Subtype="Jewelry" />
+  <Mundane Name="Perfume/Cologne, common" Cost="100" Weight="0" Source="ISWG" Subtype="Perfume" />
+  <Mundane Name="Perfume/Cologne, exotic" Cost="10000" Weight="0" Source="ISWG" Subtype="Perfume" />
+  <Mundane Name="Perfume/Cologne, common (1 dose)" Cost="100" Weight="0" Source="PCS" Subtype="Perfume" />
+  <Mundane Name="Perfume/Cologne, rare (1 dose)" Cost="1000" Weight="0" Source="PCS" Subtype="Perfume" />
+  <Mundane Name="Perfume/Cologne, exotic (1 dose)" Cost="10000" Weight="0" Source="PCS" Subtype="Perfume" />
+  <Mundane Name="Ring, poison pill" Cost="2000" Weight="0" Source="AA" Subtype="Ring" />
+  <Mundane Name="Ring, signet" Cost="500" Weight="0" Source="CRB" Subtype="Ring" />
+  <Mundane Name="Watch, pocket" Cost="25000" Weight="0" Source="AA" Subtype="Watch" />
+  <Mundane Name="Tattoo" Cost="0" Weight="0" Source="AA" Subtype="Tatoo" />
+  <Mundane Name="Backpack, common" Cost="200" Weight="32" Source="UE" Subtype="Bag" />
+  <Mundane Name="Backpack, masterwork" Cost="5000" Weight="64" Source="UE" Subtype="Bag" />
+  <Mundane Name="Bag, waterproof" Cost="50" Weight="8" Source="UE" Subtype="Bag" />
+  <Mundane Name="Bandolier" Cost="50" Weight="0" Source="UE" Subtype="Pouch" />
+  <Mundane Name="Pouch, belt" Cost="100" Weight="8" Source="UE" Subtype="Pouch" />
+  <Mundane Name="Pouch, spell components" Cost="500" Weight="32" Source="CRB" Subtype="Pouch" />
+  <Mundane Name="Pouch, war spirit" Cost="5000" Weight="0" Source="ARG" Subtype="Pouch" />
+  <Mundane Name="Sack" Cost="10" Weight="8" Source="CRB" Subtype="Bag" />
+  <Mundane Name="Satchel, familiar" Cost="2500" Weight="96" Source="UE" Subtype="Bag" />
+  <Mundane Name="Waterskin" Cost="100" Weight="64" Source="CRB" Subtype="Pouch" />
+  <Mundane Name="Barrel" Cost="200" Weight="480" Source="UE" Subtype="Barrel" />
+  <Mundane Name="Basket" Cost="40" Weight="0" Source="UE" Subtype="Barrel" />
+  <Mundane Name="Bottle" Cost="200" Weight="0" Source="UE" Subtype="Bottle" />
+  <Mundane Name="Box, scroll" Cost="500" Weight="0" Source="UE" Subtype="Box" />
+  <Mundane Name="Bucket" Cost="50" Weight="32" Source="UE" Subtype="Barrel" />
+  <Mundane Name="Canteen" Cost="200" Weight="0" Source="UE" Subtype="Pouch" />
+  <Mundane Name="Case, scroll" Cost="100" Weight="8" Source="UE" Subtype="Box" />
+  <Mundane Name="Cauldron" Cost="100" Weight="80" Source="UE" Subtype="Barrel" />
+  <Mundane Name="Cauldron, mithral" Cost="125100" Weight="0" Source="UE" Subtype="Barrel" />
+  <Mundane Name="Chest, Small / Small treasure chest" Cost="2300" Weight="400" Source="AA/PoIS" Subtype="Chest" />
+  <Mundane Name="Chest, Medium / Medium treasure chest" Cost="5700" Weight="800" Source="CRB/PoIS" Subtype="Chest" />
+  <Mundane Name="Chest, Large / Large treasure chest" Cost="101500" Weight="1600" Source="CRB/PoIS" Subtype="Chest" />
+  <Mundane Name="Chest, Huge / Huge treasure chest" Cost="253700" Weight="4000" Source="CRB/PoIS" Subtype="Chest" />
+  <Mundane Name="Chest, false bottomed" Cost="5200" Weight="400" Source="AA" Subtype="Chest" />
+  <Mundane Name="Coffee pot" Cost="300" Weight="64" Source="UE" Subtype="Pot" />
+  <Mundane Name="Coffin, common" Cost="1000" Weight="480" Source="UE" Subtype="Box" />
+  <Mundane Name="Coffin, ornate" Cost="10000" Weight="800" Source="UE" Subtype="Box" />
+  <Mundane Name="Cup" Cost="100" Weight="0" Source="AA" Subtype="Cup" />
+  <Mundane Name="Cup, false bottomed" Cost="100" Weight="0" Source="UE" Subtype="Cup" />
+  <Mundane Name="Flask" Cost="3" Weight="0" Source="UE" Subtype="Flask" />
+  <Mundane Name="Flask, hip" Cost="100" Weight="8" Source="UE" Subtype="Flask" />
+  <Mundane Name="Jug" Cost="3" Weight="144" Source="UE" Subtype="Bottle" />
+  <Mundane Name="Mug/Tankard, clay" Cost="2" Weight="16" Source="CRB" Subtype="Cup" />
+  <Mundane Name="Pitcher" Cost="2" Weight="80" Source="UE" Subtype="Cup" />
+  <Mundane Name="Pot, iron" Cost="80" Weight="64" Source="CRB" Subtype="Barrel" />
+  <Mundane Name="Potion Sponge" Cost="200" Weight="0" Source="ARG" Subtype="Sponge" />
+  <Mundane Name="Vial (for ink or potions)" Cost="100" Weight="0" Source="UE" Subtype="Bottle" />
+  <Mundane Name="Vial, iron" Cost="10" Weight="0" Source="UE" Subtype="Bottle" />
+  <Mundane Name="Altar, Portable" Cost="25000" Weight="640" Source="AA" Subtype="Religious" />
+  <Mundane Name="Holy symbol, wooden" Cost="100" Weight="0" Source="UE" Subtype="Religious" />
+  <Mundane Name="Holy symbol, iron" Cost="500" Weight="0" Source="UE" Subtype="Religious" />
+  <Mundane Name="Holy symbol, silver" Cost="2500" Weight="0" Source="UE" Subtype="Religious" />
+  <Mundane Name="Holy symbol, gold" Cost="10000" Weight="0" Source="UE" Subtype="Religious" />
+  <Mundane Name="Holy symbol, platinum" Cost="50000" Weight="0" Source="UE" Subtype="Religious" />
+  <Mundane Name="Holy symbol, compartment" Cost="500" Weight="0" Source="UE" Subtype="Religious" />
+  <Mundane Name="Holy symbol, flask" Cost="1000" Weight="0" Source="UE" Subtype="Religious" />
+  <Mundane Name="Holy symbol, tattoo" Cost="10000" Weight="0" Source="UE" Subtype="Religious" />
+  <Mundane Name="Holy text" Cost="110000" Weight="1920" Source="UE" Subtype="Religious" />
+  <Mundane Name="Holy/Unholy Water (1 flask)" Cost="2500" Weight="0" Source="CRB" Subtype="Religious" />
+  <Mundane Name="Samsaran Life Wheel" Cost="2500" Weight="8" Source="ARG" Subtype="Religious" />
+  <Mundane Name="Talisman, Necrotic" Cost="50000" Weight="0" Source="PCS" Subtype="Religious" />
+  <Mundane Name="Summoner's Idol" Cost="5000" Weight="0" Source="CoCTPG" Subtype="Religious" />
+  <Mundane Name="Authoritative vestments" Cost="45000" Weight="240" Source="AA" Subtype="Foci" />
+  <Mundane Name="Bronze gong" Cost="10000" Weight="80" Source="FoB" Subtype="Foci" />
+  <Mundane Name="Chains of contrition" Cost="20000" Weight="32" Source="AA" Subtype="Foci" />
+  <Mundane Name="Consecrated weapon" Cost="15000" Weight="0" Source="AA" Subtype="Foci" />
+  <Mundane Name="Driftwood Icon" Cost="2500" Weight="0" Source="FoB" Subtype="Foci" />
+  <Mundane Name="Hallowed chalice" Cost="20000" Weight="32" Source="AA" Subtype="Foci" />
+  <Mundane Name="Instrument of the divine" Cost="20000" Weight="48" Source="AA" Subtype="Foci" />
+  <Mundane Name="Iron eye" Cost="5000" Weight="0" Source="FoB" Subtype="Foci" />
+  <Mundane Name="Just scale" Cost="5000" Weight="0" Source="FoB" Subtype="Foci" />
+  <Mundane Name="Lock of the saved" Cost="5000" Weight="0" Source="AA" Subtype="Foci" />
+  <Mundane Name="Meditation crystal" Cost="10000" Weight="0" Source="AA" Subtype="Foci" />
+  <Mundane Name="Sanctified rings (pair)" Cost="500" Weight="0" Source="AA" Subtype="Foci" />
+  <Mundane Name="Sanctified shield" Cost="10000" Weight="0" Source="AA" Subtype="Foci" />
+  <Mundane Name="Spiked focus ward" Cost="10000" Weight="32" Source="AA" Subtype="Foci" />
+  <Mundane Name="Stinging whip" Cost="5000" Weight="80" Source="FoB" Subtype="Foci" />
+  <Mundane Name="Sundered mask" Cost="25000" Weight="0" Source="FoB" Subtype="Foci" />
+  <Mundane Name="Teaching staff" Cost="7500" Weight="80" Source="AA" Subtype="Foci" />
+  <Mundane Name="Winged fetish" Cost="5000" Weight="0" Source="FoB" Subtype="Foci" />
+  <Mundane Name="Ball (2 in.)" Cost="8" Weight="0" Source="UE" Subtype="Toy" />
+  <Mundane Name="Ball (5 in.)" Cost="20" Weight="0" Source="UE" Subtype="Toy" />
+  <Mundane Name="Ball (10 in.)" Cost="600" Weight="0" Source="UE" Subtype="Toy" />
+  <Mundane Name="Billiards gear" Cost="50" Weight="128" Source="UE" Subtype="Game" />
+  <Mundane Name="Board game" Cost="1100" Weight="32" Source="UE" Subtype="Game" />
+  <Mundane Name="Bowling set" Cost="5100" Weight="240" Source="UE" Subtype="Game" />
+  <Mundane Name="Cards" Cost="11000" Weight="0" Source="UE" Subtype="Card" />
+  <Mundane Name="Cards, marked" Cost="100" Weight="0" Source="UE" Subtype="Card" />
+  <Mundane Name="Cards, fortune-teller's, common" Cost="100" Weight="8" Source="APG" Subtype="Card" />
+  <Mundane Name="Cards, fortune-teller's, quality" Cost="2500" Weight="0" Source="APG" Subtype="Card" />
+  <Mundane Name="Cards, fortune-teller's, masterwork" Cost="5000" Weight="0" Source="APG" Subtype="Card" />
+  <Mundane Name="Cards, harrow deck" Cost="10000" Weight="0" Source="AA" Subtype="Card" />
+  <Mundane Name="Croquet set" Cost="50" Weight="160" Source="UE" Subtype="Game" />
+  <Mundane Name="Crossword" Cost="11" Weight="0" Source="UE" Subtype="Game" />
+  <Mundane Name="Dartboard set" Cost="50" Weight="160" Source="UE" Subtype="Game" />
+  <Mundane Name="Dice" Cost="10" Weight="0" Source="UE" Subtype="Game" />
+  <Mundane Name="Dice, loaded, average" Cost="1000" Weight="0" Source="UE" Subtype="Game" />
+  <Mundane Name="Dice, loaded, superior" Cost="5000" Weight="0" Source="UE" Subtype="Game" />
+  <Mundane Name="Dominos" Cost="1250" Weight="0" Source="UE" Subtype="Game" />
+  <Mundane Name="Halfling jugglesticks" Cost="2500" Weight="0" Source="ARG" Subtype="Game" />
+  <Mundane Name="Horseshoes game" Cost="50" Weight="48" Source="UE" Subtype="Game" />
+  <Mundane Name="Kite" Cost="120000" Weight="0" Source="UE" Subtype="Toy" />
+  <Mundane Name="Marbles" Cost="0" Weight="0" Source="APG" Subtype="Toy" />
+  <Mundane Name="Polo gear" Cost="50" Weight="80" Source="UE" Subtype="Toy" />
+  <Mundane Name="Puzzle box" Cost="1100000" Weight="0" Source="UE" Subtype="Game" />
+  <Mundane Name="Rounders gear" Cost="10" Weight="8" Source="UE" Subtype="Game" />
+  <Mundane Name="Shadow stencils" Cost="0" Weight="0" Source="ARG" Subtype="Toy" />
+  <Mundane Name="Tennis gear" Cost="30" Weight="48" Source="UE" Subtype="Game" />
+</root>

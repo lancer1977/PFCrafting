@@ -1,0 +1,369 @@
+<?xml version="1.0" standalone="yes"?>
+<root>
+ <xs:schema id="root" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="root" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+   <xs:complexType>
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+     <xs:element name="monster">
+      <xs:complexType>
+       <xs:attribute name="Name" type="xs:string" />
+       <xs:attribute name="Race" type="xs:string" />
+       <xs:attribute name="Type" type="xs:string" />
+       <xs:attribute name="AC" type="xs:string" />
+       <xs:attribute name="FF" type="xs:string" />
+       <xs:attribute name="Touch" type="xs:string" />
+    
+      </xs:complexType>
+     </xs:element>
+    </xs:choice>
+   </xs:complexType>
+  </xs:element>
+ </xs:schema>
+
+  <monster Name="Aasimar"  Type="Outsider" AC="15" FF="15" Touch="10" />
+  <monster Name="Aboleth"  Type="Aberration" AC="20" FF="19" Touch="9" />
+  <monster Name="Astral Deva"  Type="Outsider" AC="33" FF="29" Touch="18" />
+  <monster Name="Planetar"  Type="Outsider" AC="36" FF="32" Touch="17" />
+  <monster Name="Solar"  Type="Outsider" AC="52" FF="47" Touch="19" />
+  <monster Name="Animated Object"  Type="Construct" AC="14" FF="14" Touch="10" />
+  <monster Name="Ankheg"  Type="MagicalBeast" AC="16" FF="16" Touch="9" />
+  <monster Name="Giant Ant"  Type="Vermin" AC="15" FF="15" Touch="10" />
+  <monster Name="Army Ant Swarm"  Type="Vermin" AC="28" FF="26" Touch="28" />
+  <monster Name="Gorilla"  Type="Animal" AC="14" FF="12" Touch="11" />
+  <monster Name="Dire Ape"  Type="Animal" AC="15" FF="13" Touch="11" />
+  <monster Name="Hound Archon"  Type="Outsider" AC="21" FF="21" Touch="12" />
+  <monster Name="Lantern Archon"  Type="Outsider" AC="17" FF="17" Touch="13" />
+  <monster Name="Trumpet Archon"  Type="Outsider" AC="29" FF="26" Touch="15" />
+  <monster Name="Assassin Vine"  Type="Plant" AC="15" FF="15" Touch="9" />
+  <monster Name="Barghest"  Type="Outsider" AC="17" FF="15" Touch="12" />
+  <monster Name="Greater Barghest"  Type="Outsider" AC="20" FF="18" Touch="11" />
+  <monster Name="Basidirond"  Type="Plant" AC="18" FF="17" Touch="11" />
+  <monster Name="Basilisk"  Type="MagicalBeast" AC="17" FF="18" Touch="9" />
+  <monster Name="Dire Bat"  Type="Animal" AC="14" FF="12" Touch="11" />
+  <monster Name="Grizzly Bear"  Type="Animal" AC="16" FF="15" Touch="10" />
+  <monster Name="Dire Bear"  Type="Animal" AC="18" FF="17" Touch="10" />
+  <monster Name="Bebilith"  Type="Outsider" AC="22" FF="21" Touch="9" />
+  <monster Name="Fire Beetle"  Type="Vermin" AC="12" FF="12" Touch="11" />
+  <monster Name="Giant Stag Beetle"  Type="Vermin" AC="17" FF="17" Touch="9" />
+  <monster Name="Behir"  Type="MagicalBeast" AC="21" FF="20" Touch="9" />
+  <monster Name="Black Pudding"  Type="Ooze" AC="3" FF="8" Touch="3" />
+  <monster Name="Boar"  Type="Animal" AC="14" FF="14" Touch="10" />
+  <monster Name="Dire Boar"  Type="Animal" AC="15" FF="15" Touch="9" />
+  <monster Name="Boggard"  Type="Humanoid" AC="14" FF="15" Touch="9" />
+  <monster Name="Bugbear"  Type="Humanoid" AC="17" FF="16" Touch="12" />
+  <monster Name="Bulette"  Type="MagicalBeast" AC="22" FF="20" Touch="10" />
+  <monster Name="Cheetah"  Type="Animal" AC="15" FF="11" Touch="14" />
+  <monster Name="Leopard"  Type="Animal" AC="15" FF="11" Touch="14" />
+  <monster Name="Cave Fisher"  Type="Vermin" AC="15" FF="14" Touch="11" />
+  <monster Name="Centaur"  Type="MonstrousHumanoid" AC="20" FF="18" Touch="13" />
+  <monster Name="Giant Centipede"  Type="Vermin" AC="14" FF="12" Touch="12" />
+  <monster Name="Centipede Swarm"  Type="Vermin" AC="22" FF="18" Touch="22" />
+  <monster Name="Chimera"  Type="MagicalBeast" AC="19" FF="18" Touch="10" />
+  <monster Name="Choker"  Type="Aberration" AC="17" FF="15" Touch="13" />
+  <monster Name="Chuul"  Type="Aberration" AC="22" FF="19" Touch="12" />
+  <monster Name="Cloaker"  Type="Aberration" AC="19" FF="16" Touch="12" />
+  <monster Name="Cockatrice"  Type="MagicalBeast" AC="15" FF="12" Touch="15" />
+  <monster Name="Couatl"  Type="Outsider" AC="22" FF="19" Touch="13" />
+  <monster Name="Giant Crab"  Type="Vermin" AC="16" FF="15" Touch="11" />
+  <monster Name="Crab Swarm"  Type="Vermin" AC="18" FF="16" Touch="16" />
+  <monster Name="Crocodile"  Type="Animal" AC="14" FF="13" Touch="10" />
+  <monster Name="Dire Crocodile"  Type="Animal" AC="21" FF="21" Touch="6" />
+  <monster Name="Cyclops"  Type="Humanoid" AC="19" FF="20" Touch="8" />
+  <monster Name="Dark Creeper"  Type="Humanoid" AC="16" FF="13" Touch="14" />
+  <monster Name="Dark Stalker"  Type="Humanoid" AC="18" FF="14" Touch="14" />
+  <monster Name="Darkmantle"  Type="MagicalBeast" AC="15" FF="13" Touch="13" />
+  <monster Name="Babau"  Type="Outsider" AC="19" FF="18" Touch="11" />
+  <monster Name="Balor"  Type="Outsider" AC="36" FF="29" Touch="20" />
+  <monster Name="Dretch"  Type="Outsider" AC="14" FF="14" Touch="11" />
+  <monster Name="Glabrezu"  Type="Outsider" AC="28" FF="28" Touch="8" />
+  <monster Name="Hezrou"  Type="Outsider" AC="25" FF="25" Touch="9" />
+  <monster Name="Marilith"  Type="Outsider" AC="32" FF="28" Touch="17" />
+  <monster Name="Nabasu"  Type="Outsider" AC="22" FF="19" Touch="14" />
+  <monster Name="Nalfeshnee"  Type="Outsider" AC="29" FF="28" Touch="13" />
+  <monster Name="Quasit"  Type="Outsider" AC="16" FF="14" Touch="14" />
+  <monster Name="Succubus"  Type="Outsider" AC="20" FF="17" Touch="13" />
+  <monster Name="Vrock"  Type="Outsider" AC="22" FF="20" Touch="11" />
+  <monster Name="Derro"  Type="Humanoid" AC="17" FF="15" Touch="13" />
+  <monster Name="Barbed Devil"  Type="Outsider" AC="26" FF="20" Touch="16" />
+  <monster Name="Bone Devil"  Type="Outsider" AC="25" FF="20" Touch="14" />
+  <monster Name="Erinyes Devil"  Type="Outsider" AC="23" FF="17" Touch="17" />
+  <monster Name="Horned Devil"  Type="Outsider" AC="35" FF="27" Touch="17" />
+  <monster Name="Ice Devil"  Type="Outsider" AC="32" FF="27" Touch="14" />
+  <monster Name="Imp"  Type="Outsider" AC="17" FF="14" Touch="16" />
+  <monster Name="Lemure"  Type="Outsider" AC="14" FF="14" Touch="10" />
+  <monster Name="Pit Fiend"  Type="Outsider" AC="38" FF="29" Touch="18" />
+  <monster Name="Devourer"  Type="Undead" AC="25" FF="22" Touch="12" />
+  <monster Name="Ankylosaurus"  Type="Animal" AC="22" FF="22" Touch="8" />
+  <monster Name="Brachiosaurus"  Type="Animal" AC="18" FF="18" Touch="6" />
+  <monster Name="Deinonychus"  Type="Animal" AC="15" FF="13" Touch="12" />
+  <monster Name="Elasmosaurus"  Type="Animal" AC="20" FF="18" Touch="11" />
+  <monster Name="Pteranodon"  Type="Animal" AC="16" FF="12" Touch="14" />
+  <monster Name="Stegosaurus"  Type="Animal" AC="22" FF="20" Touch="10" />
+  <monster Name="Triceratops"  Type="Animal" AC="21" FF="22" Touch="7" />
+  <monster Name="Tyrannosaurus"  Type="Animal" AC="21" FF="20" Touch="7" />
+  <monster Name="Dog"  Type="Animal" AC="13" FF="12" Touch="12" />
+  <monster Name="Riding Dog"  Type="Animal" AC="13" FF="11" Touch="12" />
+  <monster Name="Dolphin"  Type="Animal" AC="13" FF="11" Touch="12" />
+  <monster Name="Orca"  Type="Animal" AC="16" FF="14" Touch="10" />
+  <monster Name="Doppelganger"  Type="MonstrousHumanoid" AC="16" FF="15" Touch="12" />
+  <monster Name="Young Black Dragon"  Type="Dragon" AC="21" FF="19" Touch="12" />
+  <monster Name="Adult Black Dragon"  Type="Dragon" AC="28" FF="27" Touch="10" />
+  <monster Name="Ancient Black Dragon"  Type="Dragon" AC="38" FF="38" Touch="8" />
+  <monster Name="Ancient Blue Dragon"  Type="Dragon" AC="37" FF="38" Touch="5" />
+  <monster Name="Young Blue Dragon"  Type="Dragon" AC="21" FF="20" Touch="10" />
+  <monster Name="Adult Blue Dragon"  Type="Dragon" AC="28" FF="28" Touch="8" />
+  <monster Name="Young Green Dragon"  Type="Dragon" AC="20" FF="19" Touch="10" />
+  <monster Name="Adult Green Dragon"  Type="Dragon" AC="27" FF="27" Touch="8" />
+  <monster Name="Ancient Green Dragon"  Type="Dragon" AC="36" FF="37" Touch="5" />
+  <monster Name="Young Red Dragon"  Type="Dragon" AC="22" FF="21" Touch="10" />
+  <monster Name="Adult Red Dragon"  Type="Dragon" AC="29" FF="29" Touch="8" />
+  <monster Name="Ancient Red Dragon"  Type="Dragon" AC="76" FF="77" Touch="43" />
+  <monster Name="Young White Dragon"  Type="Dragon" AC="20" FF="18" Touch="12" />
+  <monster Name="Adult White Dragon"  Type="Dragon" AC="27" FF="26" Touch="10" />
+  <monster Name="Ancient White Dragon"  Type="Dragon" AC="37" FF="37" Touch="8" />
+  <monster Name="Young Brass Dragon"  Type="Dragon" AC="21" FF="19" Touch="12" />
+  <monster Name="Adult Brass Dragon"  Type="Dragon" AC="28" FF="27" Touch="10" />
+  <monster Name="Ancient Brass Dragon"  Type="Dragon" AC="38" FF="38" Touch="8" />
+  <monster Name="Young Bronze Dragon"  Type="Dragon" AC="21" FF="20" Touch="10" />
+  <monster Name="Adult Bronze Dragon"  Type="Dragon" AC="28" FF="28" Touch="8" />
+  <monster Name="Ancient Bronze Dragon"  Type="Dragon" AC="37" FF="38" Touch="5" />
+  <monster Name="Young Copper Dragon"  Type="Dragon" AC="22" FF="20" Touch="12" />
+  <monster Name="Adult Copper Dragon"  Type="Dragon" AC="29" FF="28" Touch="10" />
+  <monster Name="Ancient Copper Dragon"  Type="Dragon" AC="39" FF="39" Touch="8" />
+  <monster Name="Young Gold Dragon"  Type="Dragon" AC="23" FF="22" Touch="10" />
+  <monster Name="Adult Gold Dragon"  Type="Dragon" AC="30" FF="30" Touch="8" />
+  <monster Name="Ancient Gold Dragon"  Type="Dragon" AC="39" FF="40" Touch="5" />
+  <monster Name="Young Silver Dragon"  Type="Dragon" AC="22" FF="21" Touch="10" />
+  <monster Name="Adult Silver Dragon"  Type="Dragon" AC="29" FF="29" Touch="8" />
+  <monster Name="Ancient Silver Dragon"  Type="Dragon" AC="38" FF="39" Touch="5" />
+  <monster Name="Dragon Turtle"  Type="Dragon" AC="23" FF="23" Touch="8" />
+  <monster Name="Drider"  Type="Aberration" AC="20" FF="18" Touch="12" />
+  <monster Name="Drow"  Type="Humanoid" AC="15" FF="13" Touch="13" />
+  <monster Name="Dryad"  Type="Fey" AC="17" FF="13" Touch="14" />
+  <monster Name="Duergar"  Type="Humanoid" AC="17" FF="18" Touch="11" />
+  <monster Name="Eagle"  Type="Animal" AC="14" FF="12" Touch="13" />
+  <monster Name="Giant Eagle"  Type="MagicalBeast" AC="15" FF="12" Touch="12" />
+  <monster Name="Electric Eel"  Type="Animal" AC="15" FF="13" Touch="13" />
+  <monster Name="Giant Moray Eel"  Type="Animal" AC="19" FF="17" Touch="11" />
+  <monster Name="Small Air Elemental"  Type="Outsider" AC="17" FF="14" Touch="14" />
+  <monster Name="Medium Air Elemental"  Type="Outsider" AC="19" FF="14" Touch="16" />
+  <monster Name="Large Air Elemental"  Type="Outsider" AC="21" FF="14" Touch="17" />
+  <monster Name="Huge Air Elemental"  Type="Outsider" AC="22" FF="13" Touch="18" />
+  <monster Name="Greater Air Elemental"  Type="Outsider" AC="35" FF="25" Touch="29" />
+  <monster Name="Elder Air Elemental"  Type="Outsider" AC="39" FF="28" Touch="31" />
+  <monster Name="Small Earth Elemental"  Type="Outsider" AC="17" FF="18" Touch="10" />
+  <monster Name="Medium Earth Elemental"  Type="Outsider" AC="18" FF="19" Touch="9" />
+  <monster Name="Large Earth Elemental"  Type="Outsider" AC="18" FF="19" Touch="8" />
+  <monster Name="Huge Earth Elemental"  Type="Outsider" AC="19" FF="20" Touch="7" />
+  <monster Name="Greater Earth Elemental"  Type="Outsider" AC="21" FF="22" Touch="7" />
+  <monster Name="Elder Earth Elemental"  Type="Outsider" AC="23" FF="24" Touch="7" />
+  <monster Name="Small Fire Elemental"  Type="Outsider" AC="16" FF="15" Touch="13" />
+  <monster Name="Medium Fire Elemental"  Type="Outsider" AC="17" FF="14" Touch="14" />
+  <monster Name="Large Fire Elemental"  Type="Outsider" AC="19" FF="14" Touch="15" />
+  <monster Name="Huge Fire Elemental"  Type="Outsider" AC="21" FF="14" Touch="16" />
+  <monster Name="Greater Fire Elemental"  Type="Outsider" AC="23" FF="15" Touch="17" />
+  <monster Name="Elder Fire Elemental"  Type="Outsider" AC="26" FF="17" Touch="18" />
+  <monster Name="Small Water Elemental"  Type="Outsider" AC="17" FF="17" Touch="11" />
+  <monster Name="Medium Water Elemental"  Type="Outsider" AC="17" FF="16" Touch="11" />
+  <monster Name="Large Water Elemental"  Type="Outsider" AC="18" FF="16" Touch="12" />
+  <monster Name="Huge Water Elemental"  Type="Outsider" AC="21" FF="17" Touch="13" />
+  <monster Name="Elder Water Elemental"  Type="Outsider" AC="24" FF="18" Touch="15" />
+  <monster Name="Elephant"  Type="Animal" AC="17" FF="17" Touch="8" />
+  <monster Name="Mastodon Elephant"  Type="Animal" AC="21" FF="20" Touch="9" />
+  <monster Name="Ettercap"  Type="Aberration" AC="15" FF="12" Touch="13" />
+  <monster Name="Ettin"  Type="Humanoid" AC="18" FF="19" Touch="8" />
+  <monster Name="Bat "  Type="Animal" AC="16" FF="14" Touch="16" />
+  <monster Name="Cat "  Type="Animal" AC="14" FF="12" Touch="14" />
+  <monster Name="Hawk "  Type="Animal" AC="30" FF="27" Touch="30" />
+  <monster Name="Lizard"  Type="Animal" AC="14" FF="12" Touch="14" />
+  <monster Name="Monkey "  Type="Animal" AC="14" FF="12" Touch="14" />
+  <monster Name="Owl "  Type="Animal" AC="18" FF="15" Touch="18" />
+  <monster Name="Rat "  Type="Animal" AC="14" FF="12" Touch="14" />
+  <monster Name="Raven "  Type="Animal" AC="14" FF="12" Touch="14" />
+  <monster Name="Toad"  Type="Animal" AC="15" FF="14" Touch="15" />
+  <monster Name="Viper"  Type="Animal" AC="16" FF="13" Touch="15" />
+  <monster Name="Weasel "  Type="Animal" AC="15" FF="13" Touch="14" />
+  <monster Name="Giant Flytrap"  Type="Plant" AC="22" FF="18" Touch="12" />
+  <monster Name="Giant Frog"  Type="Animal" AC="12" FF="11" Touch="11" />
+  <monster Name="Poison Frog"  Type="Animal" AC="13" FF="12" Touch="13" />
+  <monster Name="Froghemoth"  Type="Aberration" AC="28" FF="27" Touch="9" />
+  <monster Name="Gargoyle"  Type="MonstrousHumanoid" AC="16" FF="14" Touch="12" />
+  <monster Name="Gelatinous Cube"  Type="Ooze" AC="4" FF="9" Touch="4" />
+  <monster Name="Djinni"  Type="Outsider" AC="19" FF="15" Touch="14" />
+  <monster Name="Efreeti"  Type="Outsider" AC="21" FF="18" Touch="13" />
+  <monster Name="Janni"  Type="Outsider" AC="20" FF="18" Touch="13" />
+  <monster Name="Marid"  Type="Outsider" AC="23" FF="19" Touch="14" />
+  <monster Name="Shaitan"  Type="Outsider" AC="20" FF="19" Touch="10" />
+  <monster Name="Ghost"  Type="Undead" AC="17" FF="16" Touch="17" />
+  <monster Name="Ghoul"  Type="Undead" AC="14" FF="12" Touch="12" />
+  <monster Name="Cloud Giant"  Type="Humanoid" AC="25" FF="24" Touch="9" />
+  <monster Name="Fire Giant"  Type="Humanoid" AC="24" FF="25" Touch="8" />
+  <monster Name="Frost Giant"  Type="Humanoid" AC="21" FF="22" Touch="8" />
+  <monster Name="Hill Giant"  Type="Humanoid" AC="21" FF="22" Touch="8" />
+  <monster Name="Stone Giant"  Type="Humanoid" AC="22" FF="20" Touch="11" />
+  <monster Name="Storm Giant"  Type="Humanoid" AC="28" FF="26" Touch="10" />
+  <monster Name="Gibbering Mouther"  Type="Aberration" AC="19" FF="16" Touch="13" />
+  <monster Name="Girallon"  Type="MagicalBeast" AC="18" FF="15" Touch="12" />
+  <monster Name="Gnoll"  Type="Humanoid" AC="15" FF="15" Touch="12" />
+  <monster Name="Goblin"  Type="Humanoid" AC="16" FF="14" Touch="14" />
+  <monster Name="Goblin Dog"  Type="Animal" AC="13" FF="11" Touch="12" />
+  <monster Name="Clay Golem"  Type="Construct" AC="24" FF="25" Touch="8" />
+  <monster Name="Flesh Golem"  Type="Construct" AC="20" FF="21" Touch="8" />
+  <monster Name="Ice Golem"  Type="Construct" AC="17" FF="18" Touch="9" />
+  <monster Name="Iron Golem"  Type="Construct" AC="28" FF="29" Touch="8" />
+  <monster Name="Stone Golem"  Type="Construct" AC="26" FF="27" Touch="8" />
+  <monster Name="Wood Golem"  Type="Construct" AC="19" FF="16" Touch="13" />
+  <monster Name="Gorgon"  Type="MagicalBeast" AC="20" FF="20" Touch="9" />
+  <monster Name="Gray Ooze"  Type="Ooze" AC="5" FF="10" Touch="5" />
+  <monster Name="Green Hag"  Type="MonstrousHumanoid" AC="19" FF="18" Touch="11" />
+  <monster Name="Griffon"  Type="MagicalBeast" AC="17" FF="15" Touch="11" />
+  <monster Name="Half-Celestial Unicorn"  Type="Outsider" AC="19" FF="15" Touch="15" />
+  <monster Name="Dracolisk"  Type="Dragon" AC="21" FF="22" Touch="9" />
+  <monster Name="Half-Fiend Minotaur"  Type="Outsider" AC="17" FF="15" Touch="11" />
+  <monster Name="Harpy"  Type="MonstrousHumanoid" AC="16" FF="14" Touch="13" />
+  <monster Name="Hell Hound"  Type="Outsider" AC="16" FF="15" Touch="11" />
+  <monster Name="Nessian Warhound"  Type="Outsider" AC="24" FF="22" Touch="11" />
+  <monster Name="Aurochs"  Type="Animal" AC="13" FF="13" Touch="9" />
+  <monster Name="Bison"  Type="Animal" AC="17" FF="17" Touch="9" />
+  <monster Name="Hobgoblin"  Type="Humanoid" AC="16" FF="14" Touch="13" />
+  <monster Name="Homunculus"  Type="Construct" AC="26" FF="24" Touch="26" />
+  <monster Name="Horse"  Type="Animal" AC="11" FF="9" Touch="11" />
+  <monster Name="Pony"  Type="Animal" AC="11" FF="10" Touch="11" />
+  <monster Name="Hydra"  Type="MagicalBeast" AC="15" FF="14" Touch="9" />
+  <monster Name="Hyena"  Type="Animal" AC="14" FF="12" Touch="12" />
+  <monster Name="Dire Hyena"  Type="Animal" AC="15" FF="13" Touch="11" />
+  <monster Name="Intellect Devourer"  Type="Aberration" AC="22" FF="16" Touch="17" />
+  <monster Name="Invisible Stalker"  Type="Outsider" AC="20" FF="16" Touch="14" />
+  <monster Name="Iron Cobra"  Type="Construct" AC="20" FF="18" Touch="13" />
+  <monster Name="Kobold"  Type="Humanoid" AC="15" FF="14" Touch="12" />
+  <monster Name="Kraken"  Type="MagicalBeast" AC="32" FF="32" Touch="6" />
+  <monster Name="Kyton"  Type="Outsider" AC="21" FF="18" Touch="13" />
+  <monster Name="Lamia"  Type="MonstrousHumanoid" AC="20" FF="17" Touch="13" />
+  <monster Name="Giant Leech"  Type="Vermin" AC="11" FF="10" Touch="11" />
+  <monster Name="Leech Swarm"  Type="Vermin" AC="22" FF="18" Touch="22" />
+  <monster Name="Lich"  Type="Undead" AC="23" FF="21" Touch="14" />
+  <monster Name="Crag Linnorm"  Type="Dragon" AC="29" FF="25" Touch="10" />
+  <monster Name="Ice Linnorm"  Type="Dragon" AC="32" FF="26" Touch="8" />
+  <monster Name="Tarn Linnorm"  Type="Dragon" AC="36" FF="28" Touch="10" />
+  <monster Name="Lion"  Type="Animal" AC="15" FF="12" Touch="12" />
+  <monster Name="Dire Lion (Spotted Lion)"  Type="Animal" AC="15" FF="13" Touch="11" />
+  <monster Name="Monitor Lizard"  Type="Animal" AC="15" FF="13" Touch="12" />
+  <monster Name="Giant Frilled Lizard"  Type="Animal" AC="18" FF="17" Touch="10" />
+  <monster Name="Lizardfolk"  Type="Humanoid" AC="17" FF="17" Touch="12" />
+  <monster Name="Wererat"  Type="Humanoid" AC="16" FF="14" Touch="13" />
+  <monster Name="Wererat"  Type="Humanoid" AC="16" FF="14" Touch="13" />
+  <monster Name="Werewolf"  Type="Humanoid" AC="17" FF="16" Touch="11" />
+  <monster Name="Werewolf"  Type="Humanoid" AC="17" FF="16" Touch="11" />
+  <monster Name="Manticore"  Type="MagicalBeast" AC="17" FF="15" Touch="11" />
+  <monster Name="Giant Mantis"  Type="Vermin" AC="15" FF="14" Touch="10" />
+  <monster Name="Medusa"  Type="MonstrousHumanoid" AC="15" FF="13" Touch="12" />
+  <monster Name="Mephit"  Type="Outsider" AC="17" FF="15" Touch="14" />
+  <monster Name="Merfolk"  Type="Humanoid" AC="13" FF="12" Touch="11" />
+  <monster Name="Mimic"  Type="Aberration" AC="16" FF="15" Touch="11" />
+  <monster Name="Minotaur"  Type="MonstrousHumanoid" AC="14" FF="14" Touch="9" />
+  <monster Name="Mite"  Type="Fey" AC="12" FF="11" Touch="12" />
+  <monster Name="Mohrg"  Type="Undead" AC="23" FF="19" Touch="15" />
+  <monster Name="Morlock"  Type="MonstrousHumanoid" AC="15" FF="11" Touch="14" />
+  <monster Name="Mummy"  Type="Undead" AC="20" FF="20" Touch="10" />
+  <monster Name="Dark Naga"  Type="Aberration" AC="22" FF="17" Touch="15" />
+  <monster Name="Guardian Naga"  Type="Aberration" AC="24" FF="18" Touch="15" />
+  <monster Name="Spirit Naga"  Type="Aberration" AC="23" FF="18" Touch="14" />
+  <monster Name="Neothelid"  Type="Aberration" AC="30" FF="32" Touch="4" />
+  <monster Name="Night Hag"  Type="Outsider" AC="25" FF="21" Touch="14" />
+  <monster Name="Nightmare"  Type="Outsider" AC="19" FF="17" Touch="11" />
+  <monster Name="Cauchemar"  Type="Outsider" AC="26" FF="24" Touch="10" />
+  <monster Name="Nymph"  Type="Fey" AC="23" FF="18" Touch="23" />
+  <monster Name="Ochre Jelly"  Type="Ooze" AC="4" FF="9" Touch="4" />
+  <monster Name="Octopus"  Type="Animal" AC="15" FF="12" Touch="14" />
+  <monster Name="Giant Octopus"  Type="Animal" AC="18" FF="16" Touch="11" />
+  <monster Name="Ogre"  Type="Humanoid" AC="17" FF="18" Touch="8" />
+  <monster Name="Ogre Mage"  Type="Outsider" AC="21" FF="18" Touch="12" />
+  <monster Name="Orc"  Type="Humanoid" AC="13" FF="13" Touch="10" />
+  <monster Name="Otyugh"  Type="Aberration" AC="17" FF="17" Touch="9" />
+  <monster Name="Owlbear"  Type="MagicalBeast" AC="15" FF="14" Touch="10" />
+  <monster Name="Pegasus"  Type="MagicalBeast" AC="14" FF="12" Touch="11" />
+  <monster Name="Phase Spider"  Type="MagicalBeast" AC="17" FF="14" Touch="12" />
+  <monster Name="Phoenix"  Type="MagicalBeast" AC="28" FF="21" Touch="14" />
+  <monster Name="Pixie"  Type="Fey" AC="30" FF="25" Touch="29" />
+  <monster Name="Pseudodragon"  Type="Dragon" AC="16" FF="14" Touch="14" />
+  <monster Name="Purple Worm"  Type="MagicalBeast" AC="26" FF="28" Touch="4" />
+  <monster Name="Rakshasa"  Type="Outsider" AC="25" FF="20" Touch="16" />
+  <monster Name="Dire Rat"  Type="Animal" AC="17" FF="14" Touch="17" />
+  <monster Name="Rat Swarm"  Type="Animal" AC="14" FF="12" Touch="14" />
+  <monster Name="Remorhaz"  Type="MagicalBeast" AC="20" FF="19" Touch="9" />
+  <monster Name="Retriever"  Type="Construct" AC="25" FF="22" Touch="11" />
+  <monster Name="Rhinoceros"  Type="Animal" AC="16" FF="16" Touch="9" />
+  <monster Name="Woolly Rhinoceros"  Type="Animal" AC="19" FF="19" Touch="9" />
+  <monster Name="Roc"  Type="Animal" AC="22" FF="20" Touch="8" />
+  <monster Name="Roper"  Type="Aberration" AC="27" FF="26" Touch="10" />
+  <monster Name="Rust Monster"  Type="Aberration" AC="18" FF="15" Touch="13" />
+  <monster Name="Sahuagin"  Type="MonstrousHumanoid" AC="16" FF="15" Touch="11" />
+  <monster Name="Salamander"  Type="Outsider" AC="18" FF="17" Touch="11" />
+  <monster Name="Satyr"  Type="Fey" AC="18" FF="16" Touch="13" />
+  <monster Name="Giant Scorpion"  Type="Vermin" AC="16" FF="16" Touch="9" />
+  <monster Name="Sea Hag"  Type="MonstrousHumanoid" AC="16" FF="13" Touch="13" />
+  <monster Name="Sea Serpent"  Type="MagicalBeast" AC="25" FF="23" Touch="8" />
+  <monster Name="Shadow"  Type="Undead" AC="15" FF="13" Touch="15" />
+  <monster Name="Greater Shadow"  Type="Undead" AC="18" FF="13" Touch="18" />
+  <monster Name="Shambling Mound"  Type="Plant" AC="19" FF="19" Touch="9" />
+  <monster Name="Shark"  Type="Animal" AC="14" FF="13" Touch="10" />
+  <monster Name="Dire Shark (Megalodon)"  Type="Animal" AC="23" FF="21" Touch="8" />
+  <monster Name="Shocker Lizard"  Type="MagicalBeast" AC="16" FF="14" Touch="13" />
+  <monster Name="Shoggoth"  Type="Ooze" AC="33" FF="26" Touch="15" />
+  <monster Name="Human Skeleton"  Type="Undead" AC="16" FF="14" Touch="12" />
+  <monster Name="Skeletal Champion"  Type="Undead" AC="21" FF="20" Touch="13" />
+  <monster Name="Skum (Ulat-Kini)"  Type="MonstrousHumanoid" AC="13" FF="12" Touch="11" />
+  <monster Name="Giant Slug"  Type="Vermin" AC="20" FF="24" Touch="4" />
+  <monster Name="Constrictor Snake"  Type="Animal" AC="15" FF="12" Touch="13" />
+  <monster Name="Venomous Snake"  Type="Animal" AC="14" FF="13" Touch="11" />
+  <monster Name="Spectre"  Type="Undead" AC="15" FF="12" Touch="15" />
+  <monster Name="Sphinx (Gynosphinx)"  Type="MagicalBeast" AC="21" FF="20" Touch="10" />
+  <monster Name="Giant Spider"  Type="Vermin" AC="14" FF="11" Touch="13" />
+  <monster Name="Squid"  Type="Animal" AC="13" FF="11" Touch="12" />
+  <monster Name="Giant Squid"  Type="Animal" AC="20" FF="17" Touch="11" />
+  <monster Name="Stirge"  Type="MagicalBeast" AC="20" FF="16" Touch="20" />
+  <monster Name="Svirfneblin"  Type="Humanoid" AC="15" FF="13" Touch="15" />
+  <monster Name="Tarrasque"  Type="MagicalBeast" AC="40" FF="37" Touch="5" />
+  <monster Name="Tengu"  Type="Humanoid" AC="15" FF="12" Touch="13" />
+  <monster Name="Tiefling"  Type="Outsider" AC="16" FF="13" Touch="13" />
+  <monster Name="Tiger"  Type="Animal" AC="14" FF="12" Touch="11" />
+  <monster Name="Treant"  Type="Plant" AC="21" FF="22" Touch="7" />
+  <monster Name="Troglodyte"  Type="Humanoid" AC="15" FF="16" Touch="9" />
+  <monster Name="Troll"  Type="Humanoid" AC="16" FF="14" Touch="11" />
+  <monster Name="Unicorn"  Type="MagicalBeast" AC="17" FF="14" Touch="14" />
+  <monster Name="Vampire"  Type="Undead" AC="23" FF="19" Touch="17" />
+  <monster Name="Vargouille"  Type="Outsider" AC="15" FF="14" Touch="12" />
+  <monster Name="Vegepygmy"  Type="Plant" AC="16" FF="14" Touch="13" />
+  <monster Name="Violet Fungus"  Type="Plant" AC="15" FF="16" Touch="9" />
+  <monster Name="Giant Wasp"  Type="Vermin" AC="14" FF="13" Touch="10" />
+  <monster Name="Wasp Swarm"  Type="Vermin" AC="15" FF="14" Touch="15" />
+  <monster Name="Wight"  Type="Undead" AC="15" FF="14" Touch="11" />
+  <monster Name="Will-O'-Wisp"  Type="Aberration" AC="26" FF="17" Touch="26" />
+  <monster Name="Wolf"  Type="Animal" AC="14" FF="12" Touch="12" />
+  <monster Name="Dire Wolf"  Type="Animal" AC="14" FF="12" Touch="11" />
+  <monster Name="Wolverine"  Type="Animal" AC="14" FF="12" Touch="12" />
+  <monster Name="Dire Wolverine"  Type="Animal" AC="16" FF="13" Touch="12" />
+  <monster Name="Worg"  Type="MagicalBeast" AC="14" FF="12" Touch="12" />
+  <monster Name="Winter Wolf"  Type="MagicalBeast" AC="17" FF="16" Touch="10" />
+  <monster Name="Wraith"  Type="Undead" AC="18" FF="15" Touch="18" />
+  <monster Name="Wyvern"  Type="Dragon" AC="19" FF="18" Touch="10" />
+  <monster Name="Xill"  Type="Outsider" AC="21" FF="17" Touch="16" />
+  <monster Name="Xorn"  Type="Outsider" AC="21" FF="21" Touch="10" />
+  <monster Name="Yellow Musk Creeper"  Type="Plant" AC="14" FF="12" Touch="12" />
+  <monster Name="Yeth Hound"  Type="Outsider" AC="15" FF="13" Touch="12" />
+  <monster Name="Yeti"  Type="MonstrousHumanoid" AC="17" FF="16" Touch="10" />
+  <monster Name="Human Zombie"  Type="Undead" AC="12" FF="12" Touch="10" />
+  <monster Name="Bralani Azata"  Type="Outsider" AC="20" FF="16" Touch="14" />
+  <monster Name="Ghaele Azata"  Type="Outsider" AC="28" FF="27" Touch="16" />
+  <monster Name="Lillend Azata"  Type="Outsider" AC="20" FF="17" Touch="12" />
+  <monster Name="Dire Lion"  Type="Animal" AC="15" FF="13" Touch="11" />
+  <monster Name="Bat Swarm"  Type="Animal" AC="16" FF="14" Touch="16" />
+  <monster Name="Dire Tiger"  Type="Animal" AC="17" FF="15" Touch="11" />
+  <monster Name="Shadow Demon"  Type="Outsider" AC="18" FF="14" Touch="18" />
+  <monster Name="Spider Swarm"  Type="Vermin" AC="20" FF="17" Touch="20" />
+  <monster Name="Greater Water Elemental"  Type="Outsider" AC="23" FF="18" Touch="14" />
+  <monster Name="Adamantine Cobra"  Type="Construct" AC="25" FF="23" Touch="13" />
+  <monster Name="Plague Zombie"  Type="Undead" AC="12" FF="12" Touch="10" />
+
+
+</root>

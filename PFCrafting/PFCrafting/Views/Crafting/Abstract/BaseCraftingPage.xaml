@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:controls="clr-namespace:PFAssistant.Core.Controls;assembly=PFAssistant.Core"
-             x:Class="PFAssistant.Core.View.Crafting.BaseCraftingPage"
+             xmlns:controls="clr-namespace:PolyhydraGames.Core.Forms.Controls;assembly=PolyhydraGames.Core.Forms"
+
+             x:Class="PFCrafting.Views.Crafting.Abstract.BaseCraftingPage"
              Title="{Binding Title}">
 
     <Grid HorizontalOptions ="FillAndExpand"  Padding="10"  >

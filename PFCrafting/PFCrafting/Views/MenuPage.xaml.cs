@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace PFAssistant.Core.View
+namespace PFCrafting.Views
 {
     public partial class MenuPage : ContentPage
     {

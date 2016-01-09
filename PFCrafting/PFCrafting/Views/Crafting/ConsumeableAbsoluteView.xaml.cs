@@ -1,8 +1,7 @@
-﻿ 
-using PFAssistant.Core.ViewModels.Crafting.Abstracts;
+﻿using PFCrafting.ViewModels;
 using Xamarin.Forms;
 
-namespace PFCrafting.Views
+namespace PFCrafting.Views.Crafting
 {
     public partial class ConsumeableAbsoluteView : ContentPage
     {

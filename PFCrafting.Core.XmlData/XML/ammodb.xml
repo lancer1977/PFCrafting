@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+  <xs:schema id="root" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Ammo">
+      <xs:complexType>
+        <xs:attribute name="ID" type="xs:int"  use="required"/>
+        <xs:attribute name="Name" type="xs:string" />
+        <xs:attribute name="Cost" type="xs:integer" />
+        <xs:attribute name="Range" type="xs:string" />
+        <xs:attribute name="Weight" type="xs:integer" />
+        <xs:attribute name="DamageType" type="xs:string" />
+        <xs:attribute name="Special" type="xs:string" />
+        <xs:attribute name="Source" type="xs:string" />
+        <xs:attribute name="AmmoType" type="xs:string" />
+        <xs:attribute name="Quantity" type="xs:integer" />
+        <xs:attribute name="Misfire" type="xs:string" />
+      </xs:complexType>
+    </xs:element>
+    <xs:element name="root" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="Ammo" />
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+
+  <Ammo ID="1" Name="Arrow, Common" Cost="5" Weight="2" DamageType="Piercing" Source="CRB" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="2" Name="Arrow, Bleeding" Cost="36000" Weight="0" Source="EoG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="3" Name="Arrow, Blunt" Cost="10" Weight="2" DamageType="Bludgeoning" Source="APG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="4" Name="Arrow, Durable" Cost="100" Weight="2" Source="EoG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="5" Name="Arrow, Dye" Cost="100" Weight="2" Source="EoG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="6" Name="Arrow, Flight" Cost="10" Weight="2" DamageType="Piercing" Source="APG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="7" Name="Arrow, Lodestone" Cost="1000" Weight="2" Source="EoG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="8" Name="Arrow, Pheromone" Cost="1500" Weight="2" Source="EoG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="9" Name="Arrow, Raining" Cost="3000" Weight="2" Source="EoG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="10" Name="Arrow, Slow Burn" Cost="15000" Weight="2" Source="EoG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="11" Name="Arrow, Smoke" Cost="1000" Weight="2" DamageType="Piercing" Source="APG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="12" Name="Arrow, Splintercloud" Cost="2500" Weight="2" Source="EoG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="13" Name="Arrow, Tanglefoot" Cost="2000" Weight="2" Source="EoG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="14" Name="Arrow, Thistle" Cost="100" Weight="2" DamageType="Piercing" Source="AA" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="15" Name="Arrow, Trip" Cost="2500" Weight="2" Source="EoG" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="16" Name="Arrow, Whistling" Cost="10" Weight="2" Source="UC" AmmoType="Arrow" Quantity="1" />
+  <Ammo ID="17" Name="Crossbow Bolt" Cost="20" Weight="2" Source="CRB" AmmoType="Bolt" Quantity="1" />
+  <Ammo ID="18" Name="Bolt, Crossbow" Cost="10" Weight="2" Source="CRB" AmmoType="Bolt" Quantity="1" />
+  <Ammo ID="19" Name="Bolt, Acid" Cost="4000" Weight="2" Source="AP15" AmmoType="Bolt" Quantity="1" />
+  <Ammo ID="20" Name="Bolt, Drow Poison" Cost="10000" Weight="2" Source="AP15" AmmoType="Bolt" Quantity="1" />
+  <Ammo ID="21" Name="Bolt, Fire" Cost="5000" Weight="2" DamageType="Fire" Source="AP15" AmmoType="Bolt" Quantity="1" />
+  <Ammo ID="22" Name="Bullet, Groaning" Cost="20" Weight="0" Source="AA" AmmoType="Sling" Quantity="1" />
+  <Ammo ID="23" Name="Bullet, Sling" Cost="1" Weight="0" Source="CRB" AmmoType="Sling" Quantity="1" />
+  <Ammo ID="24" Name="Bullet, Smoke" Cost="1000" Weight="0" Source="PCS" AmmoType="Sling" Quantity="1" />
+  <Ammo ID="25" Name="Dart, Blowgun" Cost="5" Weight="1" Source="CRB" AmmoType="Dart" Quantity="1" />
+  <Ammo ID="26" Name="Firearm Bullet" Cost="100" Weight="2" Source="UC" AmmoType="Bullet" Quantity="1" />
+  <Ammo ID="27" Name="Alchemical cartridge, paper" Cost="1200" Weight="0" Source="UC" AmmoType="Bullet" Quantity="1" Misfire="1" />
+  <Ammo ID="28" Name="Alchemical cartridge, dragon’s breath" Cost="1200" Weight="0" Source="UC" AmmoType="Bullet" Quantity="1" Misfire="1" />
+  <Ammo ID="29" Name="Alchemical cartridge, flare" Cost="1200" Weight="0" Source="UC" AmmoType="Bullet" Quantity="1" Misfire="1" />
+  <Ammo ID="30" Name="Alchemical cartridge, salt shot" Cost="1200" Weight="0" Source="UC" AmmoType="Bullet" Quantity="1" Misfire="1" />
+  <Ammo ID="31" Name="Pellets" Cost="300" Weight="2" Source="UC" AmmoType="Bullet" Quantity="1" Misfire="30" />
+  <Ammo ID="32" Name="Bullet, adamantine" Cost="6100" Weight="0" Source="UC" AmmoType="Bullet" Quantity="1" Special="Adamantine" />
+</root>

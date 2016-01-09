@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="yes"?>
+
+<root>
+  <xs:schema id="root" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="root" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Race">
+            <xs:complexType>
+              <xs:attribute name="ID" type="xs:integer" />
+              <xs:attribute name="Name" type="xs:string" />
+              <xs:attribute name="Str" type="xs:string" />
+              <xs:attribute name="Dex" type="xs:string" />
+              <xs:attribute name="Con" type="xs:string" />
+              <xs:attribute name="Wis" type="xs:string" />
+              <xs:attribute name="Int" type="xs:string" />
+              <xs:attribute name="Cha" type="xs:string" />
+              <xs:attribute name="Move" type="xs:string" />
+              <xs:attribute name="Source" type="xs:string" />
+              <xs:attribute name="Subtype" type="xs:string" />
+              <xs:attribute name="Languages" type="xs:string" />
+              <xs:attribute name="Advanced" type="xs:boolean" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Race ID="1" Name="Aasimar" Str="0" Dex="0" Con="0" Wis="2" Int="0" Cha="2" Move="30" Advanced="1" Subtype="Native" Languages="Common,Celestial" Source="" />
+  <Race ID="2" Name="Catfolk" Str="0" Dex="2" Con="0" Wis="-2" Int="0" Cha="2" Move="30" Advanced="1" Subtype="Catfolk" Languages="Common,Catfolk" Source="" />
+  <Race ID="3" Name="Changeling" Str="0" Dex="0" Con="-2" Wis="2" Int="0" Cha="2" Move="30" Advanced="1" Subtype="Changeling" Languages="" Source="" />
+  <Race ID="4" Name="Dhampir" Str="0" Dex="2" Con="-2" Wis="0" Int="0" Cha="2" Move="30" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="5" Name="Drow" Str="0" Dex="2" Con="-2" Wis="0" Int="0" Cha="2" Move="30" Advanced="1" Subtype="Elf" Languages="" Source="" />
+  <Race ID="6" Name="Drow Noble" Str="0" Dex="4" Con="-2" Wis="2" Int="2" Cha="2" Move="30" Advanced="1" Subtype="Elf" Languages="Common,DrowSign" Source="" />
+  <Race ID="7" Name="Duergar" Str="0" Dex="0" Con="2" Wis="2" Int="0" Cha="-4" Move="20" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="8" Name="Dwarf" Str="0" Dex="0" Con="2" Wis="2" Int="0" Cha="-2" Move="20" Advanced="0" Subtype="" Languages="" Source="" />
+  <Race ID="9" Name="Elf" Str="0" Dex="2" Con="-2" Wis="0" Int="2" Cha="0" Move="30" Advanced="0" Subtype="Elf" Languages="" Source="" />
+  <Race ID="10" Name="Fetchling" Str="0" Dex="2" Con="0" Wis="-2" Int="0" Cha="2" Move="30" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="11" Name="Gillman" Str="0" Dex="0" Con="2" Wis="-2" Int="0" Cha="2" Move="30" Advanced="1" Subtype="Aquatic" Languages="" Source="" />
+  <Race ID="12" Name="Gnome" Str="-2" Dex="0" Con="2" Wis="0" Int="0" Cha="2" Move="20" Advanced="0" Subtype="" Languages="" Source="" />
+  <Race ID="13" Name="Goblin" Str="-2" Dex="4" Con="0" Wis="0" Int="0" Cha="-2" Move="30" Advanced="1" Subtype="Goblinoid" Languages="" Source="" />
+  <Race ID="14" Name="Grippli" Str="-2" Dex="2" Con="0" Wis="2" Int="0" Cha="0" Move="30" Advanced="1" Subtype="Grippli" Languages="Common,Grippli" Source="" />
+  <Race ID="15" Name="Half-Elf" Str="0" Dex="0" Con="0" Wis="0" Int="0" Cha="0" Move="30" Advanced="0" Subtype="Human,Elf" Languages="" Source="" />
+  <Race ID="16" Name="Halfling" Str="-2" Dex="2" Con="0" Wis="0" Int="0" Cha="2" Move="20" Advanced="0" Subtype="" Languages="" Source="" />
+  <Race ID="17" Name="Half-Orc" Str="0" Dex="0" Con="0" Wis="0" Int="0" Cha="0" Move="30" Advanced="0" Subtype="Human,Orc" Languages="" Source="" />
+  <Race ID="18" Name="Hobgoblin" Str="0" Dex="2" Con="2" Wis="0" Int="0" Cha="0" Move="30" Advanced="1" Subtype="Goblinoid" Languages="Common,Goblin" Source="" />
+  <Race ID="19" Name="Human" Str="0" Dex="0" Con="0" Wis="0" Int="0" Cha="0" Move="30" Advanced="0" Subtype="" Languages="" Source="unknown" />
+  <Race ID="20" Name="Ifrit" Str="0" Dex="2" Con="0" Wis="-2" Int="0" Cha="2" Move="30" Advanced="1" Subtype="Native" Languages="" Source="" />
+  <Race ID="21" Name="Kobold" Str="-4" Dex="2" Con="-2" Wis="0" Int="0" Cha="0" Move="30" Advanced="1" Subtype="" Languages="Draconic" Source="" />
+  <Race ID="22" Name="Kitsune" Str="-2" Dex="2" Con="0" Wis="0" Int="0" Cha="2" Move="30" Advanced="1" Subtype="Kitsune,Shapechanger" Languages="" Source="" />
+  <Race ID="23" Name="Merfolk" Str="0" Dex="2" Con="2" Wis="0" Int="0" Cha="2" Move="5" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="24" Name="Nagaji" Str="2" Dex="0" Con="0" Wis="0" Int="-2" Cha="2" Move="30" Advanced="1" Subtype="Reptilian" Languages="" Source="" />
+  <Race ID="25" Name="Orc" Str="4" Dex="0" Con="0" Wis="-2" Int="-2" Cha="-2" Move="30" Advanced="1" Subtype="Orc" Languages="" Source="" />
+  <Race ID="26" Name="Oread" Str="2" Dex="0" Con="0" Wis="2" Int="0" Cha="-2" Move="30" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="27" Name="Quickling" Str="-2" Dex="14" Con="2" Wis="4" Int="4" Cha="4" Move="120" Advanced="1" Subtype="Fey" Languages="" Source="" />
+  <Race ID="28" Name="Ratfolk" Str="-2" Dex="2" Con="0" Wis="0" Int="2" Cha="0" Move="30" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="29" Name="Samsaran" Str="0" Dex="0" Con="-2" Wis="2" Int="2" Cha="0" Move="30" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="30" Name="Saurian" Str="0" Dex="0" Con="0" Wis="0" Int="0" Cha="0" Move="30" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="31" Name="Slyph" Str="0" Dex="2" Con="-2" Wis="0" Int="2" Cha="0" Move="30" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="32" Name="Strix" Str="0" Dex="2" Con="0" Wis="0" Int="0" Cha="-2" Move="30" Advanced="1" Subtype="Strix" Languages="Strix" Source="" />
+  <Race ID="33" Name="Suli" Str="2" Dex="0" Con="0" Wis="0" Int="-2" Cha="2" Move="30" Advanced="1" Subtype="Outsider" Languages="Common" Source="" />
+  <Race ID="34" Name="Svirfneblin" Str="-2" Dex="2" Con="0" Wis="2" Int="0" Cha="-4" Move="30" Advanced="1" Subtype="Gnome" Languages="" Source="" />
+  <Race ID="35" Name="Sylph" Str="0" Dex="0" Con="0" Wis="0" Int="0" Cha="0" Move="30" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="36" Name="Tengu" Str="0" Dex="2" Con="-2" Wis="2" Int="0" Cha="0" Move="30" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="37" Name="Tiefling" Str="0" Dex="2" Con="0" Wis="0" Int="2" Cha="-2" Move="30" Advanced="1" Subtype="Native" Languages="" Source="" />
+  <Race ID="38" Name="Undine" Str="-2" Dex="2" Con="0" Wis="2" Int="0" Cha="0" Move="30" Advanced="1" Subtype="" Languages="" Source="" />
+  <Race ID="39" Name="Vanara" Str="0" Dex="2" Con="0" Wis="2" Int="0" Cha="-2" Move="30" Advanced="1" Subtype="Vanara" Languages="Common,Vanaran" Source="" />
+  <Race ID="40" Name="Vishkanya" Str="0" Dex="2" Con="0" Wis="0" Int="-2" Cha="2" Move="30" Advanced="1" Subtype="Vishkanya" Languages="Common,Vishkanya" Source="" />
+  <Race ID="41" Name="Wayang" Str="0" Dex="2" Con="0" Wis="-2" Int="2" Cha="0" Move="30" Advanced="1" Subtype="Wayang" Languages="Common,Wayang" Source="" />
+  <Race ID="42" Name="Feral Halfling" Str="-2" Dex="4" Con="0" Wis="2" Int="0" Cha="-2" Move="20" Advanced="1" Subtype="Halfling" Languages="Halfling" Source="" />
+
+</root>

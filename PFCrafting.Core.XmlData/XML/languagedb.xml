@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" standalone="yes"?>
+
+<root>
+  <xs:schema id="root" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="root" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Language">
+            <xs:complexType>
+              <xs:attribute name="Name" type="xs:string" use="required" />
+              <xs:attribute name="Description" type="xs:string" />
+              <xs:attribute name="Spoken" type="xs:string" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+
+  <Language Name="Aboleth" Spoken="Aboleth and other deep sea (aquatic) aberrations" />
+  <Language Name="Abyssal" Spoken="Demons and other chaotic evil outsiders"
+            Description="The language of demons, Abyssal is often spoken by evil spirits." />
+  <Language Name="Aklo" Spoken="Derro, inhuman or otherworldly monsters, evil fey."
+            Description="This ancient tongue is spoken by strange eldritch entities, and certain ancient beings." />
+  <Language Name="Aquan" Spoken="Aquatic and water-based creatures"
+            Description="The so-called tongue of the sea is spoken primarily in the sunken nation of the locathahs— those who trade frequently with the ocean empires often speak this tongue as well." />
+  <Language Name="Auran" Spoken="A soft-spoken, breathy language, also known as the “tongue of the heavens." />
+  <Language Name="Boggard" Spoken="Boggards" />
+  <Language Name="Celestial" Spoken="Angels and other good outsiders" Description="The language of angels." />
+  <Language Name="Common" Spoken="Humans and other core races" />
+  <Language Name="Cyclops" Spoken="Cyclops and kin"
+            Description="Once the ancient language of the giants, this tongue was created before the rise of humanity by the cyclopes of Ghol-gan." />
+  <Language Name="Dark Folk"
+            Spoken="Dark creepers, dark slayers, and dark stalkers (creatures of the Dark Folk subtype.)" />
+  <Language Name="Draconic" />
+  <Language Name="Drow Sign Language" Spoken="Drow"
+            Description="Like Druidic, drow sign language is a secret language." />
+  <Language Name="Druidic" Description="A secret sign language typically known only to druids." />
+  <Language Name="Dwarven" />
+  <Language Name="D'ziriak" Spoken="D'ziriak"
+            Description="The insectoid d'ziriak language consists of buzzes and chitters. It is an obscure one known by few outside their race." />
+  <Language Name="Elven" Spoken="Elves, half-elves" />
+  <Language Name="Giant" Spoken="Cyclops, ettins, giants, ogres, trolls"
+            Description="This brutish tongue and its numerous minor variants are spoken in any region where the wrath of giants is known." />
+  <Language Name="Gnoll" Spoken="Gnolls" />
+  <Language Name="Gnome" Spoken="Gnomes" />
+  <Language Name="Goblin" Spoken="Bugbears, goblins, hobgoblins"
+            Description="The official language of hobgoblins, this dialect is similar to the Goblin tongue." />
+  <Language Name="Grippli" Spoken="Grippli" />
+  <Language Name="Halfling" Spoken="Halflings" />
+  <Language Name="Ignan" Spoken="Fire-based creatures" Description="Also called the “tongue of fire." />
+  <Language Name="Infernal" Spoken="Devils and other lawful evil outsiders"
+            Description="The language of devils is often spoken by evil spirits." />
+  <Language Name="Necril" Spoken="undead"
+            Description="An ancient language of the dead, this whispering tongue is shared among undead and is also often associated with necromancy." />
+  <Language Name="Orc" Spoken="Orcs, half-orcs" />
+  <Language Name="Protean" Spoken="Proteans"
+            Description="Like the proteans chaotic nature, the protean language itself is mutable, evolving so quickly that few outsiders can understand it without magical aid." />
+  <Language Name="Sphinx" Spoken="Sphinxes." />
+  <Language Name="Sylvan" Spoken="Centaurs, fey creatures, plant creatures, unicorns." />
+  <Language Name="Tengu" Spoken="Tengu" Description="The official language of the tengu race." />
+  <Language Name="Terran" Spoken="Earth-based creatures." Description="Also called the tongue of earth." />
+  <Language Name="Treant" Spoken="Treants." />
+  <Language Name="Undercommon" Spoken="Drow, duergar, morlocks, svirfneblin." />
+</root>
